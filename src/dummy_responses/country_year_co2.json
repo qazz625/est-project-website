@@ -1,0 +1,107 @@
+{
+    "ghg_emission_supply": [
+        {
+            "CODE_COUNTRY": "NAMIBIA",
+            "CODE_FLOW": "GHGFUEL",
+            "CODE_PRODUCT": "OIL",
+            "CODE_TIME": "2014",
+            "COUNTRY": "Namibia",
+            "FLOW": "Total GHG emissions - Fuel Combustion (tCO2eq)",
+            "PRODUCT": "Oil",
+            "TIME": "2014",
+            "VALUE": 3.687799
+        },
+        {
+            "CODE_COUNTRY": "NAMIBIA",
+            "CODE_FLOW": "GHGFUEL",
+            "CODE_PRODUCT": "WASTEBIO",
+            "CODE_TIME": "2014",
+            "COUNTRY": "Namibia",
+            "FLOW": "Total GHG emissions - Fuel Combustion (tCO2eq)",
+            "PRODUCT": "Biofuels and waste",
+            "TIME": "2014",
+            "VALUE": 0.056107
+        }
+    ],
+    "green_house_data": [
+        {
+            "CODE_COUNTRY": "NAMIBIA",
+            "CODE_FLOW": "CO2POP",
+            "CODE_PRODUCT": "TOTAL",
+            "CODE_TIME": "2014",
+            "COUNTRY": "Namibia",
+            "FLOW": "CO2 / population (tCO2 per capita)",
+            "PRODUCT": "Total",
+            "TIME": "2014",
+            "VALUE": 1.618
+        },
+        {
+            "CODE_COUNTRY": "NAMIBIA",
+            "CODE_FLOW": "CO2TES",
+            "CODE_PRODUCT": "TOTAL",
+            "CODE_TIME": "2014",
+            "COUNTRY": "Namibia",
+            "FLOW": "CO2 / TES (tCO2 per TJ)",
+            "PRODUCT": "Total",
+            "TIME": "2014",
+            "VALUE": 46.273
+        },
+        {
+            "CODE_COUNTRY": "NAMIBIA",
+            "CODE_FLOW": "GHGFUEL",
+            "CODE_PRODUCT": "TOTAL",
+            "CODE_TIME": "2014",
+            "COUNTRY": "Namibia",
+            "FLOW": "Total GHG emissions - Fuel Combustion (tCO2eq)",
+            "PRODUCT": "Total",
+            "TIME": "2014",
+            "VALUE": 3.743907
+        },
+        {
+            "CODE_COUNTRY": "NAMIBIA",
+            "CODE_FLOW": "CO2GDPPP",
+            "CODE_PRODUCT": "TOTAL",
+            "CODE_TIME": "2014",
+            "COUNTRY": "Namibia",
+            "FLOW": "CO2 / GDP PPP (kgCO2 per 2015 USD)",
+            "PRODUCT": "Total",
+            "TIME": "2014",
+            "VALUE": 0.154
+        }
+    ],
+    "total_energy_supply": [
+        {
+            "CODE_COUNTRY": "NAMIBIA",
+            "CODE_FLOW": "TES",
+            "CODE_PRODUCT": "RENE",
+            "CODE_TIME": "2014",
+            "COUNTRY": "Namibia",
+            "FLOW": "Total energy supply",
+            "PRODUCT": "Other",
+            "TIME": "2014",
+            "VALUE": 372.9149
+        },
+        {
+            "CODE_COUNTRY": "NAMIBIA",
+            "CODE_FLOW": "TES",
+            "CODE_PRODUCT": "MTOTOIL",
+            "CODE_TIME": "2014",
+            "COUNTRY": "Namibia",
+            "FLOW": "Total energy supply",
+            "PRODUCT": "Oil",
+            "TIME": "2014",
+            "VALUE": 1203.9566
+        },
+        {
+            "CODE_COUNTRY": "NAMIBIA",
+            "CODE_FLOW": "TES",
+            "CODE_PRODUCT": "COMRENEW",
+            "CODE_TIME": "2014",
+            "COUNTRY": "Namibia",
+            "FLOW": "Total energy supply",
+            "PRODUCT": "Biofuels and waste",
+            "TIME": "2014",
+            "VALUE": 296.2549
+        }
+    ]
+}
