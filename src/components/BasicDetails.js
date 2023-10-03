@@ -7,38 +7,34 @@ import { CompoasableMap, Geographies, Geography, Annotation, ZoomableGroup, Sphe
 import { scaleLinear } from "d3-scale"
 import 'bootstrap/dist/css/bootstrap.css'
 
+import dummyResponse from "../dummy_responses/basic_details.json"
+
 import COUNTRIES from "../resources/countries.json"
 import geoUrl from "./map.json"
 
-
-var dummy_response = [
-    {field_name: 'abc', field_value: 'def'}, {field_name: 'abc', field_value: 'def'}, {field_name: 'abc', field_value: 'def'},
-    {field_name: 'abc', field_value: 'def'}, {field_name: 'abc', field_value: 'def'}, {field_name: 'abc', field_value: 'def'},
-    {field_name: 'abc', field_value: 'def'}, {field_name: 'abc', field_value: 'def'}, {field_name: 'abc', field_value: 'def'},
-    {field_name: 'abc', field_value: 'def'}, {field_name: 'abc', field_value: 'def'}, {field_name: 'abc', field_value: 'def'},
-    {field_name: 'abc', field_value: 'def'}, {field_name: 'abc', field_value: 'def'}, {field_name: 'abc', field_value: 'def'},
-    {field_name: 'abc', field_value: 'def'}
-]
-
-
+import NavBar from "./NavBar"
 
 
 const BasicDetails = () => {
     const [selectedCountry, setSelectedCountry] = useState("");
     const [details, setDetails] = useState([]);
     const [position, setPosition] = useState({center:[20, 0], zoom:1})
+    const [showNavColor, setShowNavColor] = useState(false);
 
     function selectCountry(e){
         setSelectedCountry(e.target.value);
-        var target_url = "http://10.1.37.102:9823/africaCountryGeoStats?country=" + e.target.value; 
+        // var target_url = "http://10.1.37.102:9823/africaCountryGeoStats?country=" + e.target.value;
+        var target_url = 'https://jsonplaceholder.typicode.com/todos/1'
         fetch(target_url)
             .then(response => response.json())
-            .then(json => setDetails(json))
+            // .then(json => setDetails(json))
+            .then(json => setDetails(dummyResponse))
     }
 
     return(
 
         <div className="rootdiv">
+            <NavBar/>
 
         <div className="container">
 
@@ -98,15 +94,21 @@ const BasicDetails = () => {
                             <Geographies geography={geoUrl} stroke="#000000">
                                 {({geographies}) =>
                                     geographies.map((geo, index) => {
-                                        const selected = geo.properties.name === selectedCountry
+                                        const selected = geo.properties.name_long === selectedCountry
                                         return(
-                                            <Geography key={index} geography={geo} fill={selected?"#424fd1":"#d9dbde"}/>
+                                            <Geography key={index} geography={geo} fill={selected?"#424fd1":"#d9dbde"} style={{hover: {
+                        fill: "#FF6F61",
+                        stroke: "#9E1030",
+                        strokeWidth: 0.75,
+                        outline: "none",
+                        transition: "all 250ms"
+                            }}}/>
                                         )
                                     })
 
                                 }
                             </Geographies>
-                        // </ZoomableGroup>
+                        </ZoomableGroup>
                     :
                     <p>"LOADING"</p>
                 }

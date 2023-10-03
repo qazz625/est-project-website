@@ -17,6 +17,11 @@ import YEARS from "../resources/years.json"
 
 import geoUrl from "./map.json"
 
+import NavBar from "./NavBar"
+
+
+
+
 var CanvasJS = CanvasJSReact.CanvasJS;
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
@@ -45,11 +50,11 @@ const CO2Emissions = () => {
 
         const optionsEnergy = {
             exportEnabled: true,
-            animationEnabled: true,
+            // animationEnabled: true,
             title: {
                 text: title
             },
-            backgroundColor: "#03adfc",
+            backgroundColor: "#4dbf82",
             data: [{
                 type: "pie",
                 startAngle: 75,
@@ -65,6 +70,9 @@ const CO2Emissions = () => {
     }
 
     function buildLineChartOptions(arr, title){
+
+        console.log("AA");
+        console.log(arr);
 
         var dataPoints = {};
         for(var i=0; i<arr.length; i++){
@@ -89,8 +97,8 @@ const CO2Emissions = () => {
 
         const optionsLine = {
             exportEnabled: true,
-            animationEnabled: true,
-            backgroundColor: "#03adfc",
+            // animationEnabled: true,
+            backgroundColor: "#4dbf82",
 			title: {
 				text: title
 			},
@@ -114,21 +122,30 @@ const CO2Emissions = () => {
         if(selectCountry == "" || selectYear == ""){
             return;
         }
-        fetch('https://jsonplaceholder.typicode.com/todos/1')
+        var target_url1 = 'https://jsonplaceholder.typicode.com/todos/1';
+        var target_url2 = 'https://jsonplaceholder.typicode.com/todos/1';
+
+        // var target_url1 = "http://10.1.37.102:9823/africaCountryAllYearGHGStat?country=" + e.target.value;
+        // var target_url2 = "http://10.1.37.102:9823/africaCountryEnergyStats?country=" + e.target.value + "&" + "year=" + selectedYear;
+
+        fetch(target_url1)
             .then(response => response.json())
             .then((json) => {
                 var title = "Total GHG emissions from fuel combustion per product, " + e.target.value
                 const optionsLine = buildLineChartOptions(countryDummyResponse.total_ghg_emission, title);
+                // const optionsLine = buildLineChartOptions(json.total_ghg_emission, title);
                 setLineChartOptions(optionsLine);
             })
         
-        fetch('https://jsonplaceholder.typicode.com/todos/1')
+        fetch(target_url2)
             .then(response => response.json())
             .then((json) => {
                 var title1 = "Share of total energy supply by product, " + e.target.value + ", " + selectedYear;
                 var title2 = "Share of GHG emissions, " + e.target.value + ", " + selectedYear;
                 const optionsEnergy = buildPieChartOptions(countryYearDummyResponse.total_energy_supply, title1);
                 const optionsGHG = buildPieChartOptions(countryYearDummyResponse.ghg_emission_supply, title2);
+                // const optionsEnergy = buildPieChartOptions(json.total_energy_supply, title1);
+                // const optionsGHG = buildPieChartOptions(json.ghg_emission_supply, title2);
                 setPieCharOptionsEnergy(optionsEnergy);
                 setPieChartOptionsGHG(optionsGHG);
             })
@@ -140,24 +157,31 @@ const CO2Emissions = () => {
         if(selectCountry == "" || selectYear == ""){
             return;
         }
-        var target_url = "dummy";
-        fetch('https://jsonplaceholder.typicode.com/todos/1')
+        var target_url1 = 'https://jsonplaceholder.typicode.com/todos/1';
+        var target_url2 = 'https://jsonplaceholder.typicode.com/todos/1';
+
+        // var target_url1 = "http://10.1.37.102:9823/africaCountryEnergyStats?country=" + selectedCountry + "&" + "year=" + e.target.value;
+        // var target_url2 = "http://10.1.37.102:9823/africaCountryAllYearGHGStat?country=" + selectedCountry;
+        fetch(target_url1)
             .then(response => response.json())
             .then((json) => {
                 var title1 = "Share of total energy supply by product, " + selectedCountry + ", " + e.target.value;
                 var title2 = "Share of GHG emissions, " + selectedCountry + ", " + e.target.value;
                 const optionsEnergy = buildPieChartOptions(countryYearDummyResponse.total_energy_supply, title1);
                 const optionsGHG = buildPieChartOptions(countryYearDummyResponse.ghg_emission_supply, title2);
+                // const optionsEnergy = buildPieChartOptions(json.total_energy_supply, title1);
+                // const optionsGHG = buildPieChartOptions(json.ghg_emission_supply, title2);
                 setPieCharOptionsEnergy(optionsEnergy);
                 setPieChartOptionsGHG(optionsGHG);
             })
 
         if(lineChartOptions == {}){
-            fetch('https://jsonplaceholder.typicode.com/todos/1')
+            fetch(target_url2)
             .then(response => response.json())
             .then((json) => {
                 var title = "Total GHG emissions from fuel combustion per product, " + selectedCountry;
                 const optionsLine = buildLineChartOptions(countryDummyResponse.total_ghg_emission, title);
+                // const optionsLine = buildLineChartOptions(json.total_ghg_emission, title);
                 setLineChartOptions(optionsLine);
             })
         }
@@ -165,9 +189,10 @@ const CO2Emissions = () => {
 
     
     return(
-        <div className="container rootdiv">
+        <div className="rootdiv">
+            <NavBar/>
 
-
+        <div className="container">
             <div className='row topdiv'>
             <div className='col leftdiv'>
                 <table>
@@ -259,7 +284,7 @@ const CO2Emissions = () => {
                             <Geographies geography={geoUrl} stroke="#000000">
                                 {({geographies}) =>
                                     geographies.map((geo, index) => {
-                                        const selected = geo.properties.name === selectedCountry
+                                        const selected = geo.properties.name_long === selectedCountry
                                         return(
                                             <Geography key={index} geography={geo} fill={selected?"#424fd1":"#d9dbde"}/>
                                         )
@@ -267,7 +292,7 @@ const CO2Emissions = () => {
 
                                 }
                             </Geographies>
-                        // </ZoomableGroup>
+                         </ZoomableGroup>
                     :
                     <p>"LOADING"</p>
                 }
@@ -296,6 +321,7 @@ const CO2Emissions = () => {
         }
 
 
+        </div>
         </div>
     );
 }

@@ -7,30 +7,30 @@
 }
 
 .rootdiv{
-    background-color: #96c5fa;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    background: linear-gradient(to bottom right, #a2eb78, white);
+    /* margin-bottom: 40px; */
 }
 
 .topdiv{
     text-align: center;
+    margin-top: 40px;
 }
 
 .leftdiv{
-    background-color: #03adfc;
+    background-color: #4dbf82;
     padding: 40px 40px 40px 40px;
     text-align: center;
 }
 
 .mapdiv{
     padding: 40px 40px 40px 40px;
-    background-color: #03adfc;
+    background-color: #4dbf82;
     margin-left: 20px;
 }
 
 .bottomdiv{
     text-align: center;
-    background-color: #03adfc;
+    background-color: #4dbf82;
     margin-top: 20px;
     padding: 20px 20px 20px 20px;
 }

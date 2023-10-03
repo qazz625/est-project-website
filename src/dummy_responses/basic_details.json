@@ -1,0 +1,82 @@
+[
+    {
+        "field_name": "Population (000, 2021)",
+        "field_value": "99"
+    },
+    {
+        "field_name": "Pop. density (per km2, 2021)",
+        "field_value": "224.4"
+    },
+    {
+        "field_name": "Capital city ",
+        "field_value": "Saint John's"
+    },
+    {
+        "field_name": "UN membership date ",
+        "field_value": "11-Nov-81"
+    },
+    {
+        "field_name": "Surface area (km2)",
+        "field_value": "442"
+    },
+    {
+        "field_name": "Sex ratio (m per 100 f)",
+        "field_value": "93.4"
+    },
+    {
+        "field_name": "National currency ",
+        "field_value": "E. Caribbean Dollar (XCD)"
+    },
+    {
+        "field_name": "Exchange rate (per US$)",
+        "field_value": "2.7"
+    },
+    {
+        "field_name": "GDP: Gross domestic product (million current US$)",
+        "field_value": "1662"
+    },
+    {
+        "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+        "field_value": "3.4"
+    },
+    {
+        "field_name": "GDP per capita (current US$)",
+        "field_value": "17112.8"
+    },
+    {
+        "field_name": "Population growth rate (average annual %)",
+        "field_value": "0.9"
+    },
+    {
+        "field_name": "Urban population (% of total population)",
+        "field_value": "24.5"
+    },
+    {
+        "field_name": "Fertility rate, total (live births per woman)",
+        "field_value": "2"
+    },
+    {
+        "field_name": "Life expectancy at birth (females/males, years)",
+        "field_value": "77.9/75.7"
+    },
+    {
+        "field_name": "Infant mortality rate (per 1 000 live births)",
+        "field_value": "5.2"
+    },
+    {
+        "field_name": "Threatened species (number)",
+        "field_value": "73"
+    },
+    {
+        "field_name": "Forested area (% of land area)",
+        "field_value": "18.8"
+    },
+    {
+        "field_name": "Energy supply per capita (Gigajoules)",
+        "field_value": "75"
+    },
+    {
+        "field_name": "Important sites for terrestrial biodiversity protected (%)",
+        "field_value": "26.9"
+    }
+]
