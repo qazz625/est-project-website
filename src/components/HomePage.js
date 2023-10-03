@@ -5,10 +5,6 @@ import './HomePage.css'
 import { useNavigate } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css'
 
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-
 
 const HomePage = () => {
 
@@ -18,8 +14,8 @@ const HomePage = () => {
         navigate('/basic-details');
     }
 
-    const navigateToCO2Emissions = () => {
-        navigate('/co2-emissions');
+    const navigateToGHGEmissions = () => {
+        navigate('/ghg-emissions');
     }
 
     const navigateToContributors = () => {
@@ -42,7 +38,7 @@ const HomePage = () => {
                     
                 </div>
                 <div className='row'>
-                    <button className='col btn btn-outline-success my-button' type="button" onClick={ () => { navigateToCO2Emissions(); } }>GHG Emissions</button>
+                    <button className='col btn btn-outline-success my-button' type="button" onClick={ () => { navigateToGHGEmissions(); } }>GHG Emissions</button>
 
                     
                 </div>

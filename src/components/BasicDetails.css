@@ -7,10 +7,15 @@
 }
 
 .rootdiv{
-    background: linear-gradient(to bottom right, #a2eb78, white);
-    /* margin-bottom: 40px; */
+    /* background: linear-gradient(to bottom right, #6bc736, white); */
+    background-image: url('../resources/forestbridge.jpg');
     height: 100%;
-    min-height: 100%;
+    /* min-height: 100vh; */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 40px;
 }
 
 .topdiv{
@@ -19,15 +24,17 @@
 }
 
 .leftdiv{
-    background-color: #03adfc;
+    background-color: rgba(255,255,255,0.4);
     padding: 40px 40px 40px 40px;
     text-align: center;
+    border-radius: 15px;
 }
 
 .mapdiv{
     padding: 40px 40px 40px 40px;
-    background-color: #03adfc;
+    background-color: rgba(255,255,255,0.4);
     margin-left: 20px;
+    border-radius: 15px;
 }
 
 .submitbutton{
@@ -40,7 +47,8 @@
 
 .details-heading{
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: 1000;
 }
 
 table{
@@ -61,5 +69,12 @@ table{
     padding-bottom: 2px;
     vertical-align: middle;
     border-top: 2px solid black;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.details-row:hover{
+    background-color: #03ab4c;
+    transition: 0.3s;
 }
 

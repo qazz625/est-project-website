@@ -1,15 +1,15 @@
 import React from 'react'
 import {useState} from 'react';
 import ReactDOM from 'react-dom'
-import './CO2Emissions.css'
+import './GHGEmissions.css'
 import { useNavigate } from 'react-router-dom';
 import { CompoasableMap, Geographies, Geography, Annotation, ZoomableGroup, Sphere, Graticule, ComposableMap } from "react-simple-maps";
 import { scaleLinear } from "d3-scale"
 import 'bootstrap/dist/css/bootstrap.css'
 import CanvasJSReact from '@canvasjs/react-charts';
 
-import countryDummyResponse from "../dummy_responses/country_co2.json"
-import countryYearDummyResponse from "../dummy_responses/country_year_co2.json"
+import countryDummyResponse from "../dummy_responses/country_ghg.json"
+import countryYearDummyResponse from "../dummy_responses/country_year_ghg.json"
 
 import COUNTRIES from "../resources/countries.json"
 import YEARS from "../resources/years.json"
@@ -26,7 +26,7 @@ var CanvasJS = CanvasJSReact.CanvasJS;
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
 
-const CO2Emissions = () => {
+const GHGEmissions = () => {
     const [selectedCountry, setSelectedCountry] = useState("");
     const [selectedYear, setSelectedYear] = useState("");
     const [pieChartOptionsEnergy, setPieCharOptionsEnergy] = useState({});
@@ -54,7 +54,7 @@ const CO2Emissions = () => {
             title: {
                 text: title
             },
-            backgroundColor: "#4dbf82",
+            backgroundColor: "rgba(255,255,255,0.0)",
             data: [{
                 type: "pie",
                 startAngle: 75,
@@ -98,7 +98,7 @@ const CO2Emissions = () => {
         const optionsLine = {
             exportEnabled: true,
             // animationEnabled: true,
-            backgroundColor: "#4dbf82",
+            backgroundColor: "rgba(255,255,255,0.0)",
 			title: {
 				text: title
 			},
@@ -326,4 +326,4 @@ const CO2Emissions = () => {
     );
 }
 
-export default CO2Emissions;
+export default GHGEmissions;

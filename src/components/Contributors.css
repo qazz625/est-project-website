@@ -1,0 +1,33 @@
+.rootdiv{
+    /* background: linear-gradient(to bottom right, #6bc736, white); */
+    height: 100%;
+    min-height: 100vh;
+    padding-bottom: 40px;
+}
+
+.grid-container {
+    margin-top: 40px;
+}
+
+.contributor-tile{
+    margin: 40px 40px 40px 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    border-radius: 10px;
+    border-spacing: 40px;
+}
+
+.contributor-tile:hover{
+    background-color: #009d44;
+    transition: 0.3s;
+    color: white;
+}
+
+.contributor-table{
+    border-collapse: separate;
+    border-spacing: 40px;
+}
+
