@@ -93,6 +93,7 @@ const BasicDetails = () => {
                         <ZoomableGroup
                            zoom={position.zoom} 
                            center={position.center}
+                           maxZoom={2}
                            translateExtent={[
                             [0, 0],
                             [400, 450]
