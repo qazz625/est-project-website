@@ -26,7 +26,7 @@ const NavBar = () => {
       <div className="navbar-div">
         <MDBNavbar expand='lg' dark bgColor='success'>
         <MDBContainer fluid>
-          <span className='navbar-text project-name-span'> PROJECT NAME </span>
+          <span className='navbar-text project-name-span'>GWG</span>
           <MDBNavbarToggler
             type='button'
             data-target='#navbarColor02'
@@ -60,19 +60,17 @@ const NavBar = () => {
           <MDBCollapse navbar show={false}>
           <MDBNavbarNav right fullWidth={false} className='mb-2 mb-lg-0 navbar-buttons'>
           <MDBNavbarItem className='active'>
-                <MDBNavbarLink aria-current='page' href='/'>
-                  Home
-                </MDBNavbarLink>
-              </MDBNavbarItem>
-              <MDBNavbarItem>
-                <MDBNavbarLink href='/basic-details'>Basic Details</MDBNavbarLink>
-              </MDBNavbarItem>
-              <MDBNavbarItem>
-                <MDBNavbarLink href='/ghg-emissions'>GHG Emissions</MDBNavbarLink>
-              </MDBNavbarItem>
-              <MDBNavbarItem>
-                <MDBNavbarLink href='/contributors'>Contributors</MDBNavbarLink>
-              </MDBNavbarItem>
+            <MDBNavbarLink aria-current='page' href='/'> <b>Home</b> </MDBNavbarLink>
+          </MDBNavbarItem>
+          <MDBNavbarItem className='navbar-item'>
+            <MDBNavbarLink href='/basic-details'> <b>Basic Details</b></MDBNavbarLink>
+          </MDBNavbarItem>
+          <MDBNavbarItem className='navbar-item'>
+            <MDBNavbarLink href='/ghg-emissions'> <b>GHG Emissions</b></MDBNavbarLink>
+          </MDBNavbarItem>
+          <MDBNavbarItem className='navbar-item'>
+            <MDBNavbarLink href='/contributors'> <b>Contributors</b></MDBNavbarLink>
+          </MDBNavbarItem>
           </MDBNavbarNav>
         </MDBCollapse>
 

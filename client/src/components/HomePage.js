@@ -28,8 +28,11 @@ const HomePage = () => {
 
             <div>
             <h1 className='project-name'>
-                PROJECT NAME
+                GREEN WITH GUSTO
             </h1>
+            <h5 className='sub-heading'>
+                An Environmental Analysis on the African Subcontinent
+            </h5>
             <hr className='hr-line'/>
             <div className='container'>
                 <div className='row'>

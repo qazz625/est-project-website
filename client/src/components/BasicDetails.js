@@ -14,6 +14,8 @@ import geoUrl from "./map.json"
 
 import NavBar from "./NavBar"
 
+import { Tooltip } from 'react-tooltip'
+
 
 const BasicDetails = () => {
     const [selectedCountry, setSelectedCountry] = useState("");
@@ -21,14 +23,19 @@ const BasicDetails = () => {
     const [position, setPosition] = useState({center:[20, 0], zoom:1})
     const [showNavColor, setShowNavColor] = useState(false);
 
-    function selectCountry(e){
-        setSelectedCountry(e.target.value);
-        // var target_url = "http://10.1.37.102:9823/africaCountryGeoStats?country=" + e.target.value;
+    function selectCountry(countryName){
+        setSelectedCountry(countryName);
+        document.getElementById("country-dropdown").value = countryName;
+        // var target_url = "http://10.1.37.102:9823/africaCountryGeoStats?country=" + countryName;
         var target_url = 'https://jsonplaceholder.typicode.com/todos/1'
         fetch(target_url)
             .then(response => response.json())
             // .then(json => setDetails(json))
             .then(json => setDetails(dummyResponse))
+    }
+
+    function test(countryName){
+        console.log(countryName);
     }
 
     return(
@@ -46,7 +53,7 @@ const BasicDetails = () => {
                             Country:
                         </td>
                         <td className='select-cell'>
-                            <select className="dropdown" defaultValue="" onChange={(e) => selectCountry(e)}>
+                            <select id="country-dropdown" className="dropdown" defaultValue="" onChange={(e) => selectCountry(e.target.value)}>
                                 <option value="" disabled>Select the country</option>
                                 {COUNTRIES.map(function(object, i){ return(<option value={object} key={i} > {object} </option>);})}
                             </select>
@@ -96,13 +103,22 @@ const BasicDetails = () => {
                                     geographies.map((geo, index) => {
                                         const selected = geo.properties.name_long === selectedCountry
                                         return(
-                                            <Geography key={index} geography={geo} fill={selected?"#424fd1":"#d9dbde"} style={{hover: {
-                        fill: "#FF6F61",
-                        stroke: "#9E1030",
-                        strokeWidth: 0.75,
-                        outline: "none",
-                        transition: "all 250ms"
-                            }}}/>
+                                            <Geography 
+                                                key={index}
+                                                geography={geo} 
+                                                fill={selected?"#424fd1":"#d9dbde"} 
+                                                style={{hover: {
+                                                            fill: "#FF6F61",
+                                                            stroke: "#9E1030",
+                                                            strokeWidth: 0.75,
+                                                            outline: "none",
+                                                            transition: "all 250ms"
+                                                                }}}
+                                                data-tooltip-id="my-tooltip"
+                                                data-tooltip-content={geo.properties.name_long}
+                                                data-tooltip-place="top"
+                                                onClick={() => selectCountry(geo.properties.name_long)}
+                                            />
                                         )
                                     })
 
@@ -119,6 +135,7 @@ const BasicDetails = () => {
 
 
         </div>
+        <Tooltip id="my-tooltip" />
         </div>
     );
 }

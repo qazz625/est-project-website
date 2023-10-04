@@ -19,6 +19,8 @@ import geoUrl from "./map.json"
 
 import NavBar from "./NavBar"
 
+import { Tooltip } from 'react-tooltip'
+
 
 
 
@@ -117,21 +119,22 @@ const GHGEmissions = () => {
     }
 
 
-    function selectCountry(e){
-        setSelectedCountry(e.target.value);
-        if(selectCountry == "" || selectYear == ""){
+    function selectCountry(countryName){
+        setSelectedCountry(countryName);
+        document.getElementById("country-dropdown").value = countryName;
+        if(countryName == "" || selectedYear == ""){
             return;
         }
         var target_url1 = 'https://jsonplaceholder.typicode.com/todos/1';
         var target_url2 = 'https://jsonplaceholder.typicode.com/todos/1';
 
-        // var target_url1 = "http://10.1.37.102:9823/africaCountryAllYearGHGStat?country=" + e.target.value;
-        // var target_url2 = "http://10.1.37.102:9823/africaCountryEnergyStats?country=" + e.target.value + "&" + "year=" + selectedYear;
+        // var target_url1 = "http://10.1.37.102:9823/africaCountryAllYearGHGStat?country=" + countryName;
+        // var target_url2 = "http://10.1.37.102:9823/africaCountryEnergyStats?country=" + countryName + "&" + "year=" + selectedYear;
 
         fetch(target_url1)
             .then(response => response.json())
             .then((json) => {
-                var title = "Total GHG emissions from fuel combustion per product, " + e.target.value
+                var title = "Total GHG emissions from fuel combustion per product, " + countryName
                 const optionsLine = buildLineChartOptions(countryDummyResponse.total_ghg_emission, title);
                 // const optionsLine = buildLineChartOptions(json.total_ghg_emission, title);
                 setLineChartOptions(optionsLine);
@@ -140,8 +143,8 @@ const GHGEmissions = () => {
         fetch(target_url2)
             .then(response => response.json())
             .then((json) => {
-                var title1 = "Share of total energy supply by product, " + e.target.value + ", " + selectedYear;
-                var title2 = "Share of GHG emissions, " + e.target.value + ", " + selectedYear;
+                var title1 = "Share of total energy supply by product, " + countryName + ", " + selectedYear;
+                var title2 = "Share of GHG emissions, " + countryName + ", " + selectedYear;
                 const optionsEnergy = buildPieChartOptions(countryYearDummyResponse.total_energy_supply, title1);
                 const optionsGHG = buildPieChartOptions(countryYearDummyResponse.ghg_emission_supply, title2);
                 // const optionsEnergy = buildPieChartOptions(json.total_energy_supply, title1);
@@ -154,9 +157,15 @@ const GHGEmissions = () => {
 
     function selectYear(e){
         setSelectedYear(e.target.value);
-        if(selectCountry == "" || selectYear == ""){
+        if(selectedCountry == "" || e.target.value == ""){
             return;
         }
+
+        console.log(selectedCountry);
+        console.log(e.target.value);
+        console.log(lineChartOptions);
+        console.log(Object.keys(lineChartOptions).length);
+
         var target_url1 = 'https://jsonplaceholder.typicode.com/todos/1';
         var target_url2 = 'https://jsonplaceholder.typicode.com/todos/1';
 
@@ -175,7 +184,7 @@ const GHGEmissions = () => {
                 setPieChartOptionsGHG(optionsGHG);
             })
 
-        if(lineChartOptions == {}){
+        if(Object.keys(lineChartOptions).length === 0){
             fetch(target_url2)
             .then(response => response.json())
             .then((json) => {
@@ -201,7 +210,7 @@ const GHGEmissions = () => {
                             Country:
                         </td>
                         <td className='select-cell'>
-                            <select className="dropdown" defaultValue="" onChange={(e) => selectCountry(e)}>
+                            <select id="country-dropdown" className="dropdown" defaultValue="" onChange={(e) => selectCountry(e.target.value)}>
                                 <option value="" disabled>Select the country</option>
                                 {COUNTRIES.map(function(object, i){ return(<option value={object} key={i} > {object} </option>);})}
                             </select>
@@ -286,7 +295,22 @@ const GHGEmissions = () => {
                                     geographies.map((geo, index) => {
                                         const selected = geo.properties.name_long === selectedCountry
                                         return(
-                                            <Geography key={index} geography={geo} fill={selected?"#424fd1":"#d9dbde"}/>
+                                            <Geography 
+                                                key={index}
+                                                geography={geo}
+                                                fill={selected?"#424fd1":"#d9dbde"}
+                                                style={{hover: {
+                                                    fill: "#FF6F61",
+                                                    stroke: "#9E1030",
+                                                    strokeWidth: 0.75,
+                                                    outline: "none",
+                                                    transition: "all 250ms"
+                                                        }}}
+                                                data-tooltip-id="my-tooltip"
+                                                data-tooltip-content={geo.properties.name_long}
+                                                data-tooltip-place="top"
+                                                onClick={() => selectCountry(geo.properties.name_long)}
+                                            />
                                         )
                                     })
 
@@ -322,6 +346,7 @@ const GHGEmissions = () => {
 
 
         </div>
+        <Tooltip id="my-tooltip" />
         </div>
     );
 }

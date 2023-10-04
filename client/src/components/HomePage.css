@@ -25,6 +25,12 @@
     font-size: 50px;
 }
 
+.sub-heading{
+    color: white;
+    font-weight: 300px;
+    text-align: center;
+}
+
 .hr-line{
     width: 80%;
     margin: auto;
@@ -36,6 +42,13 @@
 .my-button{
     margin-top: 20px;
     margin-bottom: 20px;
+    color: white !important;
+    /* border-color: rgba(255, 255, 255, 0) !important; */
+    border-radius: 7px !important;
+}
+
+.my-button:hover{
+    border-color: #198754 !important;
 }
 
 .contri{
