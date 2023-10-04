@@ -73,6 +73,11 @@ table{
     padding-left: 10px;
 }
 
+.details-row{
+    opacity: 1;
+    font-weight: 600;
+}
+
 .details-row:hover{
     background-color: #03ab4c;
     transition: 0.3s;

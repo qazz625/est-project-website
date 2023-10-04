@@ -26,7 +26,7 @@ const NavBar = () => {
       <div className="navbar-div">
         <MDBNavbar expand='lg' dark bgColor='success'>
         <MDBContainer fluid>
-          <span className='navbar-text navbar-span'> PROJECT NAME </span>
+          <span className='navbar-text project-name-span'> PROJECT NAME </span>
           <MDBNavbarToggler
             type='button'
             data-target='#navbarColor02'
@@ -38,7 +38,7 @@ const NavBar = () => {
           </MDBNavbarToggler>
 
 
-          <MDBCollapse show={showNavColor} navbar>
+          {/* <MDBCollapse show={showNavColor} navbar>
             <MDBNavbarNav right className='me-auto mb-2 mb-lg-0'>
               <MDBNavbarItem className='active'>
                 <MDBNavbarLink aria-current='page' href='/'>
@@ -55,33 +55,38 @@ const NavBar = () => {
                 <MDBNavbarLink href='/contributors'>Contributors</MDBNavbarLink>
               </MDBNavbarItem>
             </MDBNavbarNav>
-          </MDBCollapse>
+          </MDBCollapse> */}
 
-          {/* <MDBCollapse navbar show={false}>
-          <MDBNavbarNav right fullWidth={false} className='mb-2 mb-lg-0'>
-            <MDBNavbarItem>
-              <MDBNavbarLink active aria-current='page' href='#'>
-                Home
-              </MDBNavbarLink>
-            </MDBNavbarItem>
-            <MDBNavbarItem>
-              <MDBNavbarLink href='#'>Link</MDBNavbarLink>
-            </MDBNavbarItem>
-            <MDBNavbarItem>
-              <MDBNavbarLink disabled href='#' tabIndex={-1} aria-disabled='true'>
-                Disabled
-              </MDBNavbarLink>
-            </MDBNavbarItem>
+          <MDBCollapse navbar show={false}>
+          <MDBNavbarNav right fullWidth={false} className='mb-2 mb-lg-0 navbar-buttons'>
+          <MDBNavbarItem className='active'>
+                <MDBNavbarLink aria-current='page' href='/'>
+                  Home
+                </MDBNavbarLink>
+              </MDBNavbarItem>
+              <MDBNavbarItem>
+                <MDBNavbarLink href='/basic-details'>Basic Details</MDBNavbarLink>
+              </MDBNavbarItem>
+              <MDBNavbarItem>
+                <MDBNavbarLink href='/ghg-emissions'>GHG Emissions</MDBNavbarLink>
+              </MDBNavbarItem>
+              <MDBNavbarItem>
+                <MDBNavbarLink href='/contributors'>Contributors</MDBNavbarLink>
+              </MDBNavbarItem>
           </MDBNavbarNav>
-        </MDBCollapse> */}
+        </MDBCollapse>
 
 
 
 
+        
 
         </MDBContainer>
       </MDBNavbar>
       </div>
+
+
+
       )
 }
 

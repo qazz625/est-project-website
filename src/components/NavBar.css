@@ -1,6 +1,8 @@
-.navbar-span{
+.project-name-span{
     margin-right: 40px;
     margin-left: 40px;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 .navbar-div{
@@ -14,4 +16,8 @@
 
 .test{
     text-align: right;
+}
+
+.navbar-buttons{
+    margin-right:40px
 }
