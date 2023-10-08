@@ -1,0 +1,4484 @@
+{
+    "Algeria": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "99"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "224.4"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Saint John's"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "11-Nov-81"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "442"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "93.4"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "E. Caribbean Dollar (XCD)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "2.7"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "1662"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "3.4"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "17112.8"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "0.9"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "24.5"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "2"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "77.9/75.7"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "5.2"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "73"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "18.8"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "75"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "26.9"
+        }
+    ],
+    "Angola": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "33934"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "27.2"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Luanda"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "01-Dec-76"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "1246700"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "97.9"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Kwanza (AOA)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "656.2"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "85001"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "-1.5"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "2670.9"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "3.3"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "66.2"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "5.6"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "63.4/57.8"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "61.5"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "193"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "54.3"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "17"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "28.1"
+        }
+    ],
+    "Benin": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "12451"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "110.4"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Porto-Novo"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "20-Sep-60"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "114763"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "99.8"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "CFA Franc, BCEAO (XOF)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "534.6"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "14403"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "6.9"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "1220.5"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "2.7"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "47.9"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "4.9"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "62.8/59.8"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "61.1"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "114"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "28.7"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "19"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "66.7"
+        }
+    ],
+    "Botswana": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "2397"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "4.2"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Gaborone"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "17-Oct-66"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "582000"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "94.2"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Pula (BWP)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "10.8"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "18341"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "3"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "7961.4"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "2.1"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "70.2"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "2.9"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "71.9/66.0"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "30.2"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "35"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "27.3"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "45"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "51.1"
+        }
+    ],
+    "Burkina Faso": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "21497"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "78.6"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Ouagadougou"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "20-Sep-60"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "272967"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "100"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "CFA Franc, BCEAO (XOF)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "534.6"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "15991"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "5.7"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "786.9"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "2.9"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "30"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "5.2"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "61.6/60.1"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "54.2"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "36"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "23.1"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "10"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "66.7"
+        }
+    ],
+    "Burundi": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "12255"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "477.2"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Gitega"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "18-Sep-62"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "27834"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "98.5"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Burundi Franc (BIF)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "1946.4"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "3002"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "1.8"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "260.4"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "3.1"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "13.4"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "5.4"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "62.8/59.2"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "42.4"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "194"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "10.9"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "6"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "56.8"
+        }
+    ],
+    "Cabo Verde": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "562"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "139.4"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Praia"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "16-Sep-75"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "4033"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "100.8"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Cabo Verde Escudo (CVE)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "89.8"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "1982"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "5.7"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "3603.8"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "1.2"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "66.2"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "2.3"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "75.9/69.2"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "16.9"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "123"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "11.2"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "19"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "12"
+        }
+    ],
+    "Cameroon": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "27224"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "57.6"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Yaound\u00c3\u00a9"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "20-Sep-60"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "475650"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "100.1"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "CFA Franc, BEAC (XAF)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "534.6"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "38861"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "3.9"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "1501.8"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "2.6"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "57"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "4.6"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "60.0/57.5"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "61.2"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "1017"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "43.3"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "16"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "35.3"
+        }
+    ],
+    "Central African Republic": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "4920"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "7.9"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Bangui"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "20-Sep-60"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "622984"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "98.3"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "CFA Franc, BEAC (XAF)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "534.6"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "2220"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "3"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "467.9"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "1.4"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "41.8"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "4.8"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "54.9/50.5"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "81.9"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "83"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "35.9"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "5"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "74.2"
+        }
+    ],
+    "Chad": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "16915"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "13.4"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "N'Djamena"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "20-Sep-60"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "1284000"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "99.7"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "CFA Franc, BEAC (XAF)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "534.6"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "11272"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "3"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "706.8"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "3"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "23.3"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "5.8"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "55.2/52.4"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "74.5"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "52"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "3.6"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "6"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "67.3"
+        }
+    ],
+    "Comoros": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "888"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "477.4"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Moroni"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "12-Nov-75"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "2235"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "101.8"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Comorian Franc (KMF)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "400.9"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "1166"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "3.2"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "1370.1"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "2.2"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "29.2"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "4.2"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "65.8/62.3"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "53.1"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "136"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "18.2"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "10"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "55.1"
+        }
+    ],
+    "Congo": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "5657"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "16.6"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Brazzaville"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "20-Sep-60"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "342000"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "99.9"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "CFA Franc, BEAC (XAF)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "534.6"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "12397"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "-0.9"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "2304.1"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "2.6"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "67.4"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "4.4"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "65.6/62.7"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "35.3"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "181"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "64.4"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "24"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "60.9"
+        }
+    ],
+    "Democratic Republic of the Congo": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "92378"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "40.7"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Kinshasa"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "20-Sep-60"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "2344858"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "99.7"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Congolese Franc (CDF)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "1971.8"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "47320"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "4.4"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "545.2"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "3.2"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "45"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "6"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "61.7/58.7"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "64.9"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "571"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "56.6"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "14"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "52.7"
+        }
+    ],
+    "Djibouti": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "1002"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "43.2"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Djibouti"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "20-Sep-77"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "23200"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "110.4"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Djibouti Franc (DJF)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "177.7"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "3166"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "7.7"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "3252.3"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "1.6"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "77.9"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "2.8"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "68.7/64.6"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "33.4"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "118"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "0.2"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "11"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "0.8"
+        }
+    ],
+    "Egypt": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "104258"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "104.7"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Cairo"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "24-Oct-45"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "1002000"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "102.1"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Egyptian Pound (EGP)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "15.7"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "317359"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "5.6"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "3161.3"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "2"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "42.7"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "3.3"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "74.1/69.5"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "15.6"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "191"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "~0.0"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "38"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "38.4"
+        }
+    ],
+    "Equatorial Guinea": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "1450"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "51.7"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Malabo"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "12-Nov-68"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "28052"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "125.4"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "CFA Franc, BEAC (XAF)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "534.6"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "11025"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "-5.6"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "8130.4"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "3.7"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "72.6"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "4.6"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "59.4/57.3"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "66.1"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "234"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "87.9"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "76"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "100"
+        }
+    ],
+    "Eritrea": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "3602"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "35.7"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Asmara"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "28-May-93"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "121144"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "100.5"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Nakfa (ERN)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "15.1"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "1982"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "3.8"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "566.7"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "1.2"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "40.7"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "4.1"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "68.0/63.6"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "34.7"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "154"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "10.5"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "11"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "13.3"
+        }
+    ],
+    "Eswatini": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "1172"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "68.2"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Mbabane"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "24-Sep-68"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "17363"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "97"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Lilangeni (SZL)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "14.6"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "4594"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "1.1"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "4001.6"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "1"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "24"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "3"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "63.9/55.2"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "41.4"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "46"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "28.8"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "38"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "30.6"
+        }
+    ],
+    "Ethiopia": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "117876"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "117.9"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Addis Ababa"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "13-Nov-45"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "1104300"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "100.1"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Ethiopian Birr (ETB)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "39.2"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "92750"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "8.3"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "827.5"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "2.6"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "21.2"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "4.3"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "67.9/64.1"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "37"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "183"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "15.2"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "14"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "18.1"
+        }
+    ],
+    "Gabon": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "2279"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "8.8"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Libreville"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "20-Sep-60"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "267668"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "103.6"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "CFA Franc, BEAC (XAF)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "534.6"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "16888"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "3.6"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "7773.2"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "2.7"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "89.7"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "4"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "68.2/64.0"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "35.3"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "459"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "91.4"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "50"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "60.4"
+        }
+    ],
+    "Gambia": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "2487"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "245.7"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Banjul"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "21-Sep-65"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "11295"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "98.4"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Dalasi (GMD)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "51.6"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "1823"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "6.1"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "776.4"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "2.9"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "61.9"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "5.2"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "63.0/60.2"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "44.8"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "104"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "25.1"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "6"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "41.7"
+        }
+    ],
+    "Ghana": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "31732"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "139.5"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Accra"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "08-Mar-57"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "238537"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "102.8"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Ghana Cedi (GHS)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "5.8"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "66999"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "6.5"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "2202.6"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "2.2"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "56.7"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "3.9"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "64.7/62.6"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "35.6"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "271"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "35"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "12"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "68.9"
+        }
+    ],
+    "Guinea": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "13497"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "54.9"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Conakry"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "12-Dec-58"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "245836"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "94"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Guinean Franc (GNF)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "9400.8"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "12354"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "5.6"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "967.4"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "2.8"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "36.5"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "4.7"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "61.5/60.3"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "51.6"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "380"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "25.5"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "14"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "69.8"
+        }
+    ],
+    "Guinea-Bissau": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "2016"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "71.7"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Bissau"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "17-Sep-74"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "36125"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "95.9"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "CFA Franc, BCEAO (XOF)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "534.6"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "1322"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "4.5"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "688.4"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "2.5"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "43.8"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "4.5"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "59.7/55.8"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "57.1"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "102"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "71"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "17"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "59.5"
+        }
+    ],
+    "Ivory Coast": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "27054"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "85.1"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Yamoussoukro"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "20-Sep-60"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "322462"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "101.6"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "CFA Franc, BCEAO (XOF)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "534.6"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "58540"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "6.2"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "2276.3"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "2.5"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "51.2"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "4.7"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "58.6/56.1"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "60.4"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "298"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "9.6"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "17"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "73.8"
+        }
+    ],
+    "Kenya": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "54986"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "96.6"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Nairobi"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "16-Dec-63"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "591958"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "98.8"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Kenyan Shilling (KES)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "109.2"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "95502"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "5.4"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "1816.5"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "2.3"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "27.5"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "3.5"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "68.5/63.8"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "36.3"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "615"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "6.3"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "19"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "34.2"
+        }
+    ],
+    "Lesotho": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "2159"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "71.1"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Maseru"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "17-Oct-66"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "30355"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "97.5"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Loti (LSL)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "14.6"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "2460"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "1.5"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "1157.5"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "0.8"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "28.6"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "3.2"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "56.8/50.4"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "62.3"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "21"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "1.1"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "22"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "16.5"
+        }
+    ],
+    "Liberia": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "5180"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "53.8"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Monrovia"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "02-Nov-45"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "111369"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "101.2"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Liberian Dollar (LRD)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "164.2"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "2582"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "-2.3"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "523"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "2.5"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "51.6"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "4.4"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "65.0/62.2"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "54.1"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "248"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "79.7"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "20"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "15.8"
+        }
+    ],
+    "Libya": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "6958"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "4"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Tripoli"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "14-Dec-55"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "1676198"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "101.9"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Libyan Dinar (LYD)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "1.4"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "32600"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "9.9"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "4810.1"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "1.4"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "80.4"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "2.2"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "75.7/69.9"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "10.5"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "86"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "0.1"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "112"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "0"
+        }
+    ],
+    "Madagascar": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "28427"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "48.9"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Antananarivo"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "20-Sep-60"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "587041"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "99.6"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Malagasy Ariary (MGA)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "3824.8"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "14105"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "4.4"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "523"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "2.7"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "37.9"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "4.1"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "68.1/64.9"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "29"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "3664"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "21.4"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "13"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "27.2"
+        }
+    ],
+    "Malawi": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "19648"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "208.4"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Lilongwe"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "01-Dec-64"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "117726"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "97.3"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Malawi Kwacha (MWK)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "773.1"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "8099"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "5.2"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "434.8"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "2.7"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "17.2"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "4.2"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "66.6/60.3"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "41.3"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "137"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "24.7"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "5"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "70.8"
+        }
+    ],
+    "Mali": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "20856"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "17.1"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Bamako"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "28-Sep-60"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "1240192"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "100.5"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "CFA Franc, BCEAO (XOF)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "534.6"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "17433"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "6.6"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "886.8"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "3"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "43.1"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "5.9"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "59.5/58.0"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "65.8"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "71"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "10.9"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "11"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "8.1"
+        }
+    ],
+    "Mauritania": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "4775"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "4.6"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Nouakchott"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "27-Oct-61"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "1030700"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "100.9"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Ouguiya (MRU)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "36.7"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "7594"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "5.9"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "1677.9"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "2.8"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "54.5"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "4.6"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "66.2/63.0"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "53.4"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "111"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "0.3"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "17"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "11.2"
+        }
+    ],
+    "Mauritius": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "1273"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "627.3"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Port Louis"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "24-Apr-68"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "1979"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "97.2"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Mauritius Rupee (MUR)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "39.5"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "14180"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "3.6"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "11168.6"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "0.2"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "40.8"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "1.4"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "78.2/71.4"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "11.2"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "279"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "19.1"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "54"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "9.6"
+        }
+    ],
+    "Morocco": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "37345"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "83.7"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Rabat"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "12-Nov-56"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "446550"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "98.6"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Moroccan Dirham (MAD)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "8.9"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "119701"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "3.6"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "3282.0"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "1.3"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "63"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "2.4"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "77.5/75.1"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "19.9"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "254"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "12.8"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "24"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "38.5"
+        }
+    ],
+    "Mozambique": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "32163"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "40.9"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Maputo"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "16-Sep-75"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "799380"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "94.6"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Mozambique Metical (MZN)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "74.9"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "15297"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "2.3"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "503.7"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "2.9"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "36.5"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "4.9"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "62.8/57.0"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "53.9"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "493"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "47.3"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "15"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "38"
+        }
+    ],
+    "Namibia": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "2587"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "3.1"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Windhoek"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "23-Apr-90"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "824116"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "94.1"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Namibia Dollar (NAD)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "14.6"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "12366"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "-1.1"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "4957.4"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "1.9"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "51"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "3.4"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "65.8/60.0"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "33.4"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "132"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "8.2"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "34"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "86.2"
+        }
+    ],
+    "Niger": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "25131"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "19.8"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Niamey"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "20-Sep-60"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "1267000"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "101.2"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "CFA Franc, BCEAO (XOF)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "534.6"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "12928"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "5.8"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "554.6"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "3.8"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "16.5"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "7"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "63.0/60.7"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "46.3"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "42"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "0.9"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "4"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "54.7"
+        }
+    ],
+    "Nigeria": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "211401"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "232.1"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Abuja"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "07-Oct-60"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "923768"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "102.8"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Naira (NGN)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "381"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "474517"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "2.2"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "2361.2"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "2.6"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "51.2"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "5.4"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "55.1/53.3"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "62.1"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "403"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "24.1"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "34"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "80.4"
+        }
+    ],
+    "Rwanda": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "13276"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "538.2"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Kigali"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "18-Sep-62"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "26338"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "96.7"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Rwanda Franc (RWF)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "972.5"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "10355"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "9.4"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "820.1"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "2.6"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "17.3"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "4.1"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "70.5/66.3"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "29.2"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "171"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "11.1"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "8"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "51.7"
+        }
+    ],
+    "Sao Tome and Principe": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "223"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "232.7"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Sao Tome"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "16-Sep-75"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "964"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "100.2"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Dobra (STN)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "20"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "422"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "1.3"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "1961.2"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "1.9"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "73.6"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "4.4"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "72.4/67.7"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "26.4"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "116"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "55.4"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "14"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "79.5"
+        }
+    ],
+    "Senegal": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "17196"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "89.3"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Dakar"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "28-Sep-60"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "196712"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "95.4"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "CFA Franc, BCEAO (XOF)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "534.6"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "23665"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "5.2"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "1452.1"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "2.8"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "47.7"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "4.6"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "69.4/65.3"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "32.7"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "162"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "42.3"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "12"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "37.8"
+        }
+    ],
+    "Seychelles": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "99"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "215"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Victoria"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "21-Sep-76"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "457"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "105.1"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Seychelles Rupee (SCR)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "21.6"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "1699"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "4.7"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "17381.7"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "0.7"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "57.1"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "2.5"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "77.3/69.8"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "10.9"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "457"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "73.3"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "80"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "52.8"
+        }
+    ],
+    "Sierra Leone": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "8141"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "112.8"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Freetown"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "27-Sep-61"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "72300"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "99.7"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Leone (SLL)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "10133.4"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "4122"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "5.5"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "527.5"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "2.1"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "42.5"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "4.3"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "54.8/53.2"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "80.8"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "259"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "35.7"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "9"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "49.2"
+        }
+    ],
+    "Somalia": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "16360"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "26.1"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Mogadishu"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "20-Sep-60"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "637657"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "99.4"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Somali Shilling (SOS)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "24300.0"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "1626"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "2.9"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "105.3"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "2.8"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "45.6"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "6.1"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "58.7/55.3"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "69.3"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "217"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "9.8"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "10"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "0"
+        }
+    ],
+    "South Africa": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "60042"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "49.5"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Pretoria"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "07-Nov-45"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "1221037"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "97"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Rand (ZAR)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "14.7"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "351431"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "0.2"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "6001.4"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "1.4"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "66.9"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "2.4"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "67.1/60.2"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "27.2"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "792"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "14.1"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "102"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "33.1"
+        }
+    ],
+    "South Sudan": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "11381"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "18.6"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Juba"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "14-Jul-11"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "658841"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "100.2"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "S. Sudanese Pound (SSP)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "177.3"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "4960"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "0.9"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "448.4"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "0.9"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "19.9"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "4.7"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "58.9/56.0"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "64.4"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "62"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "41.5"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "2"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "33.6"
+        }
+    ],
+    "Sudan": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "44909"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "25.4"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Khartoum"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "12-Nov-56"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "99.9"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Sudanese Pound (SDG)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "55"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "34895"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "1.3"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "815.1"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "2.4"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "34.9"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "4.4"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "66.8/63.1"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "42.9"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "165"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "878.6"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "13"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "17.8"
+        }
+    ],
+    "Tanzania": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "61498"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "69.4"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Dodoma"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "14-Dec-61"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "947303"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "99.9"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Tanzanian Shilling (TZS)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "2298.5"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "60037"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "7"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "1084.4"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "3"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "34.5"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "4.9"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "66.6/63.0"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "41.2"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "1422"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "52.7"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "16"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "63"
+        }
+    ],
+    "Togo": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "8478"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "155.9"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Lom\u00c3\u00a9"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "20-Sep-60"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "56785"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "99.1"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "CFA Franc, BCEAO (XOF)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "534.6"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "7270"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "5.3"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "899.5"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "2.5"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "42.2"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "4.4"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "61.4/59.7"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "49.7"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "106"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "22.3"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "17"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "79.5"
+        }
+    ],
+    "Tunisia": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "11936"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "76.8"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Tunis"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "12-Nov-56"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "163610"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "98.4"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Tunisian Dinar (TND)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "2.7"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "38797"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "1"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "3317.5"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "1.1"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "69.3"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "2.2"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "78.5/74.4"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "12.7"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "120"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "4.5"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "41"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "39.5"
+        }
+    ],
+    "Uganda": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "47124"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "235.8"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Kampala"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "25-Oct-62"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "241550"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "97.3"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Uganda Shilling (UGX)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "3650.1"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "32609"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "6.7"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "736.6"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "3.6"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "24.4"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "5"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "65.0/60.4"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "46.1"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "269"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "12.1"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "21"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "72.2"
+        }
+    ],
+    "Western Sahara": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "612"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "2.3"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "El Aai\u00c3\u00ban"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "266000"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "109.4"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Moroccan Dirham (MAD)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "8.9"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "2.5"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "86.8"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "2.4"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "71.9/68.2"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "28.8"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "70"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "2.5"
+        }
+    ],
+    "Zambia": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "18921"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "25.5"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Lusaka"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "01-Dec-64"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "752612"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "98.1"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Zambian Kwacha (ZMW)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "21.2"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "23085"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "1.4"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "1292.5"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "2.9"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "44.1"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "4.7"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "66.2/60.3"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "45.6"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "121"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "60.8"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "30"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "46.1"
+        }
+    ],
+    "Zimbabwe": [
+        {
+            "field_name": "Population (000, 2021)",
+            "field_value": "15092"
+        },
+        {
+            "field_name": "Pop. density (per km2, 2021)",
+            "field_value": "39"
+        },
+        {
+            "field_name": "Capital city ",
+            "field_value": "Harare"
+        },
+        {
+            "field_name": "UN membership date ",
+            "field_value": "25-Aug-80"
+        },
+        {
+            "field_name": "Surface area (km2)",
+            "field_value": "390757"
+        },
+        {
+            "field_name": "Sex ratio (m per 100 f)",
+            "field_value": "91.4"
+        },
+        {
+            "field_name": "National currency ",
+            "field_value": "Zimbabwe Dollar (ZWL)"
+        },
+        {
+            "field_name": "Exchange rate (per US$)",
+            "field_value": "81.8"
+        },
+        {
+            "field_name": "GDP: Gross domestic product (million current US$)",
+            "field_value": "21441"
+        },
+        {
+            "field_name": "GDP growth rate (annual %, const. 2015 prices)",
+            "field_value": "-8.1"
+        },
+        {
+            "field_name": "GDP per capita (current US$)",
+            "field_value": "1464.0"
+        },
+        {
+            "field_name": "Population growth rate (average annual %)",
+            "field_value": "1.5"
+        },
+        {
+            "field_name": "Urban population (% of total population)",
+            "field_value": "32.2"
+        },
+        {
+            "field_name": "Fertility rate, total (live births per woman)",
+            "field_value": "3.6"
+        },
+        {
+            "field_name": "Life expectancy at birth (females/males, years)",
+            "field_value": "62.2/59.2"
+        },
+        {
+            "field_name": "Infant mortality rate (per 1 000 live births)",
+            "field_value": "38.7"
+        },
+        {
+            "field_name": "Threatened species (number)",
+            "field_value": "124"
+        },
+        {
+            "field_name": "Forested area (% of land area)",
+            "field_value": "45.3"
+        },
+        {
+            "field_name": "Energy supply per capita (Gigajoules)",
+            "field_value": "34"
+        },
+        {
+            "field_name": "Important sites for terrestrial biodiversity protected (%)",
+            "field_value": "81.2"
+        }
+    ]
+}
