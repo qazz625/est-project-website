@@ -16,6 +16,9 @@ import NavBar from "./NavBar"
 
 import { Tooltip } from 'react-tooltip'
 
+const TARGET_URL_PREFIX = "http://192.168.97.116:9823/africaCountryGeoStats?country=";
+const DUMMY_TARGET = 'https://jsonplaceholder.typicode.com/todos/1';
+const USE_DUMMY_API = 1;
 
 const BasicDetails = () => {
     const [selectedCountry, setSelectedCountry] = useState("");
@@ -26,12 +29,25 @@ const BasicDetails = () => {
     function selectCountry(countryName){
         setSelectedCountry(countryName);
         document.getElementById("country-dropdown").value = countryName;
-        // var target_url = "http://10.1.37.102:9823/africaCountryGeoStats?country=" + countryName;
-        var target_url = 'https://jsonplaceholder.typicode.com/todos/1'
-        fetch(target_url)
+        var target_url;
+        if(USE_DUMMY_API == 0){
+            target_url = TARGET_URL_PREFIX + countryName;
+        }
+        else{
+            target_url = DUMMY_TARGET;
+        }
+        
+        if(USE_DUMMY_API == 0){
+            fetch(target_url)
             .then(response => response.json())
-            // .then(json => setDetails(json))
+            .then(json => setDetails(json))
+        }
+        else{
+            fetch(target_url)
+            .then(response => response.json())
             .then(json => setDetails(dummyResponse))
+        }
+        
     }
 
     function test(countryName){

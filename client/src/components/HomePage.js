@@ -18,6 +18,10 @@ const HomePage = () => {
         navigate('/ghg-emissions');
     }
 
+    const navigateToPredictionPage = () => {
+        navigate('/predict');
+    }
+
     const navigateToContributors = () => {
         navigate('/contributors');
     }
@@ -37,14 +41,16 @@ const HomePage = () => {
             <div className='container'>
                 <div className='row'>
                     <button className='col btn btn-outline-success my-button' type="button" onClick={ () => { navigateToBasicDetails(); }}>Basic Details</button>
-
-                    
                 </div>
+
                 <div className='row'>
                     <button className='col btn btn-outline-success my-button' type="button" onClick={ () => { navigateToGHGEmissions(); } }>GHG Emissions</button>
-
-                    
                 </div>
+
+                <div className='row'>
+                    <button className='col btn btn-outline-success my-button' type="button" onClick={ () => { navigateToPredictionPage(); } }>Predict</button>
+                </div>
+
                 <div className='row'>
                     <button className='col btn btn-outline-success my-button' type="button" onClick={ () => { navigateToContributors(); } }>Contributors</button>                    
                 </div>

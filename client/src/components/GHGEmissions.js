@@ -27,6 +27,10 @@ import { Tooltip } from 'react-tooltip'
 var CanvasJS = CanvasJSReact.CanvasJS;
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
+const TARGET_URL1_PREFIX = "http://192.168.97.116:9823/africaCountryAllYearGHGStat?country="
+const TARGET_URL2_PREFIX = "http://192.168.97.116:9823/africaCountryEnergyStats?country="
+const DUMMY_TARGET = 'https://jsonplaceholder.typicode.com/todos/1';
+const USE_DUMMY_API = 1;
 
 const GHGEmissions = () => {
     const [selectedCountry, setSelectedCountry] = useState("");
@@ -125,18 +129,30 @@ const GHGEmissions = () => {
         if(countryName == "" || selectedYear == ""){
             return;
         }
-        var target_url1 = 'https://jsonplaceholder.typicode.com/todos/1';
-        var target_url2 = 'https://jsonplaceholder.typicode.com/todos/1';
 
-        // var target_url1 = "http://10.1.37.102:9823/africaCountryAllYearGHGStat?country=" + countryName;
-        // var target_url2 = "http://10.1.37.102:9823/africaCountryEnergyStats?country=" + countryName + "&" + "year=" + selectedYear;
+        var target_url1;
+        var target_url2;
+        if(USE_DUMMY_API == 0){
+            target_url1 = TARGET_URL1_PREFIX + countryName;
+            target_url2 = TARGET_URL2_PREFIX + countryName + "&" + "year=" + selectedYear;
+        }
+        else{
+            target_url1 = DUMMY_TARGET;
+            target_url2 = DUMMY_TARGET;
+        }
+        
 
         fetch(target_url1)
             .then(response => response.json())
             .then((json) => {
                 var title = "Total GHG emissions from fuel combustion per product, " + countryName
-                const optionsLine = buildLineChartOptions(countryDummyResponse.total_ghg_emission, title);
-                // const optionsLine = buildLineChartOptions(json.total_ghg_emission, title);
+                var optionsLine;
+                if(USE_DUMMY_API == 0){
+                    optionsLine = buildLineChartOptions(json.total_ghg_emission, title);   
+                }
+                else{
+                    optionsLine = buildLineChartOptions(countryDummyResponse.total_ghg_emission, title);
+                }
                 setLineChartOptions(optionsLine);
             })
         
@@ -145,10 +161,16 @@ const GHGEmissions = () => {
             .then((json) => {
                 var title1 = "Share of total energy supply by product, " + countryName + ", " + selectedYear;
                 var title2 = "Share of GHG emissions, " + countryName + ", " + selectedYear;
-                const optionsEnergy = buildPieChartOptions(countryYearDummyResponse.total_energy_supply, title1);
-                const optionsGHG = buildPieChartOptions(countryYearDummyResponse.ghg_emission_supply, title2);
-                // const optionsEnergy = buildPieChartOptions(json.total_energy_supply, title1);
-                // const optionsGHG = buildPieChartOptions(json.ghg_emission_supply, title2);
+                var optionsEnergy;
+                var optionsGHG;
+                if(USE_DUMMY_API == 0){
+                    optionsEnergy = buildPieChartOptions(json.total_energy_supply, title1);
+                    optionsGHG = buildPieChartOptions(json.ghg_emission_supply, title2);
+                }
+                else{
+                    optionsEnergy = buildPieChartOptions(countryYearDummyResponse.total_energy_supply, title1);
+                    optionsGHG = buildPieChartOptions(countryYearDummyResponse.ghg_emission_supply, title2);
+                } 
                 setPieCharOptionsEnergy(optionsEnergy);
                 setPieChartOptionsGHG(optionsGHG);
             })
@@ -161,36 +183,57 @@ const GHGEmissions = () => {
             return;
         }
 
-        console.log(selectedCountry);
-        console.log(e.target.value);
-        console.log(lineChartOptions);
-        console.log(Object.keys(lineChartOptions).length);
+        // console.log(selectedCountry);
+        // console.log(e.target.value);
+        // console.log(lineChartOptions);
+        // console.log(Object.keys(lineChartOptions).length);
 
-        var target_url1 = 'https://jsonplaceholder.typicode.com/todos/1';
-        var target_url2 = 'https://jsonplaceholder.typicode.com/todos/1';
+        var target_url1;
+        var target_url2;
 
-        // var target_url1 = "http://10.1.37.102:9823/africaCountryEnergyStats?country=" + selectedCountry + "&" + "year=" + e.target.value;
-        // var target_url2 = "http://10.1.37.102:9823/africaCountryAllYearGHGStat?country=" + selectedCountry;
-        fetch(target_url1)
+        if(USE_DUMMY_API == 0){
+            target_url1 = TARGET_URL1_PREFIX + selectedCountry;
+            target_url2 = TARGET_URL2_PREFIX + selectedCountry + "&" + "year=" + e.target.value;
+        }
+        else{
+            target_url1 = DUMMY_TARGET;
+            target_url2 = DUMMY_TARGET;
+        }
+        
+        
+
+        fetch(target_url2)
             .then(response => response.json())
             .then((json) => {
                 var title1 = "Share of total energy supply by product, " + selectedCountry + ", " + e.target.value;
                 var title2 = "Share of GHG emissions, " + selectedCountry + ", " + e.target.value;
-                const optionsEnergy = buildPieChartOptions(countryYearDummyResponse.total_energy_supply, title1);
-                const optionsGHG = buildPieChartOptions(countryYearDummyResponse.ghg_emission_supply, title2);
-                // const optionsEnergy = buildPieChartOptions(json.total_energy_supply, title1);
-                // const optionsGHG = buildPieChartOptions(json.ghg_emission_supply, title2);
+                var optionsEnergy;
+                var optionsGHG;
+                if(USE_DUMMY_API == 0){
+                    optionsEnergy = buildPieChartOptions(json.total_energy_supply, title1);
+                    optionsGHG = buildPieChartOptions(json.ghg_emission_supply, title2);
+                }
+                else{
+                    optionsEnergy = buildPieChartOptions(countryYearDummyResponse.total_energy_supply, title1);
+                    optionsGHG = buildPieChartOptions(countryYearDummyResponse.ghg_emission_supply, title2);
+                }
                 setPieCharOptionsEnergy(optionsEnergy);
                 setPieChartOptionsGHG(optionsGHG);
             })
 
         if(Object.keys(lineChartOptions).length === 0){
-            fetch(target_url2)
+            fetch(target_url1)
             .then(response => response.json())
             .then((json) => {
                 var title = "Total GHG emissions from fuel combustion per product, " + selectedCountry;
-                const optionsLine = buildLineChartOptions(countryDummyResponse.total_ghg_emission, title);
-                // const optionsLine = buildLineChartOptions(json.total_ghg_emission, title);
+                var optionsLine;
+                if(USE_DUMMY_API == 0){
+                    optionsLine = buildLineChartOptions(json.total_ghg_emission, title);
+                }
+                else{
+                    optionsLine = buildLineChartOptions(countryDummyResponse.total_ghg_emission, title);
+
+                }
                 setLineChartOptions(optionsLine);
             })
         }
