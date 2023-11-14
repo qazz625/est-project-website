@@ -69,6 +69,9 @@ const NavBar = () => {
             <MDBNavbarLink href='/ghg-emissions'> <b>GHG Emissions</b></MDBNavbarLink>
           </MDBNavbarItem>
           <MDBNavbarItem className='navbar-item'>
+            <MDBNavbarLink href='/predict'> <b>Predict CO2 Emissions</b></MDBNavbarLink>
+          </MDBNavbarItem>
+          <MDBNavbarItem className='navbar-item'>
             <MDBNavbarLink href='/contributors'> <b>Contributors</b></MDBNavbarLink>
           </MDBNavbarItem>
           </MDBNavbarNav>

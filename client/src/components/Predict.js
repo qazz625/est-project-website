@@ -181,7 +181,7 @@ const Predict = () => {
                 </table>
 
                     <input className='check-box' type="checkbox" id="advanced" name="advanced" onChange={(e) => {setAdvanced(e.target.checked);}}/>
-                    <label for="vehicle1"> Advanced </label><br/>
+                    <label className='check-box-label'> Advanced </label><br/>
                 
                 { advanced &&
                     <table>

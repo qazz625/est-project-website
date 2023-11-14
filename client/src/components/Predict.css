@@ -5,10 +5,23 @@
     font-size: 20px;
 }
 
+.select-cell{
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+    font-weight: 700;
+}
+
+.check-box-label{
+    font-weight: 500;
+}
+
 .check-box{
     margin-top: 20px;
     margin-right: 10px;
     margin-bottom: 20px;
+    height: 18px;
+    width: 18px;
 }
 
 .num-input{

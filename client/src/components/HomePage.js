@@ -48,7 +48,7 @@ const HomePage = () => {
                 </div>
 
                 <div className='row'>
-                    <button className='col btn btn-outline-success my-button' type="button" onClick={ () => { navigateToPredictionPage(); } }>Predict CO2 Emission</button>
+                    <button className='col btn btn-outline-success my-button' type="button" onClick={ () => { navigateToPredictionPage(); } }>Predict CO2 Emissions</button>
                 </div>
 
                 <div className='row'>
