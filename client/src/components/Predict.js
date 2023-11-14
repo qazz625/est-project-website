@@ -144,6 +144,14 @@ const Predict = () => {
 
         console.log(news);
     }
+
+    function advancedToggle(checked){
+        setAdvanced(checked);
+        setBiowaste(-1);
+        setCoal(-1);
+        setOil(-1);
+        setNaturalGas(-1);
+    }
     
     return(
         <div className="rootdiv">
@@ -180,7 +188,7 @@ const Predict = () => {
                     </tr>
                 </table>
 
-                    <input className='check-box' type="checkbox" id="advanced" name="advanced" onChange={(e) => {setAdvanced(e.target.checked);}}/>
+                    <input className='check-box' type="checkbox" id="advanced" name="advanced" onChange={(e) => {advancedToggle(e.target.checked);}}/>
                     <label className='check-box-label'> Advanced </label><br/>
                 
                 { advanced &&
