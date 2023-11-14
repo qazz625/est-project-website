@@ -31,7 +31,7 @@ var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 const TARGET_URL1_PREFIX = endpoint_base.ENDPOINT_BASE + "africaCountryAllYearGHGStat?country="
 const TARGET_URL2_PREFIX = endpoint_base.ENDPOINT_BASE + "africaCountryEnergyStats?country="
 const DUMMY_TARGET = 'https://jsonplaceholder.typicode.com/todos/1';
-const USE_DUMMY_API = 1;
+const USE_DUMMY_API = 0;
 
 const GHGEmissions = () => {
     const [selectedCountry, setSelectedCountry] = useState("");
@@ -40,6 +40,7 @@ const GHGEmissions = () => {
     const [pieChartOptionsGHG, setPieChartOptionsGHG] = useState({});
     const [lineChartOptions, setLineChartOptions] = useState({});
     const [position, setPosition] = useState({center:[20, 0], zoom:1})
+    const [countryYearResponse, setCountryYearResponse] = useState({});
 
     function buildPieChartOptions(arr, title){
         var total = 0;
@@ -167,6 +168,7 @@ const GHGEmissions = () => {
                 if(USE_DUMMY_API == 0){
                     optionsEnergy = buildPieChartOptions(json.total_energy_supply, title1);
                     optionsGHG = buildPieChartOptions(json.ghg_emission_supply, title2);
+                    setCountryYearResponse(json);
                 }
                 else{
                     optionsEnergy = buildPieChartOptions(countryYearDummyResponse.total_energy_supply, title1);
@@ -174,6 +176,8 @@ const GHGEmissions = () => {
                 } 
                 setPieCharOptionsEnergy(optionsEnergy);
                 setPieChartOptionsGHG(optionsGHG);
+
+                console.log(json);
             })
     }
 
@@ -213,6 +217,7 @@ const GHGEmissions = () => {
                 if(USE_DUMMY_API == 0){
                     optionsEnergy = buildPieChartOptions(json.total_energy_supply, title1);
                     optionsGHG = buildPieChartOptions(json.ghg_emission_supply, title2);
+                    setCountryYearResponse(json);
                 }
                 else{
                     optionsEnergy = buildPieChartOptions(countryYearDummyResponse.total_energy_supply, title1);
@@ -220,6 +225,7 @@ const GHGEmissions = () => {
                 }
                 setPieCharOptionsEnergy(optionsEnergy);
                 setPieChartOptionsGHG(optionsGHG);
+                console.log(json);
             })
 
         if(Object.keys(lineChartOptions).length === 0){
@@ -283,9 +289,9 @@ const GHGEmissions = () => {
                     <div className='details-heading'> Key emissions figures for {selectedYear}, {selectedCountry} </div>
                 }
 
-                { selectedYear != "" && selectedCountry != "" &&
+                { selectedYear != "" && selectedCountry != "" && Object.keys(countryYearResponse).length != 0 &&
                     <table>
-                        {countryYearDummyResponse.green_house_data.map(function(object, i){ return(
+                        {countryYearResponse.green_house_data.map(function(object, i){ return(
                             <tr className='details-row' key={i}>
                                 <td className='details-cell'>{object.FLOW}</td>
                                 <td className='details-cell'>{object.VALUE}</td>
@@ -293,7 +299,7 @@ const GHGEmissions = () => {
                         )}
                         )}
 
-                        {countryYearDummyResponse.total_energy_supply.map(function(object, i){ return(
+                        {countryYearResponse.total_energy_supply.map(function(object, i){ return(
                             <tr className='details-row' key={i}>
                                 <td className='details-cell'><p>{object.FLOW} ({object.PRODUCT})</p></td>
                                 <td className='details-cell'>{object.VALUE}</td>
@@ -301,7 +307,7 @@ const GHGEmissions = () => {
                         )}
                         )}
 
-                        {countryYearDummyResponse.ghg_emission_supply.map(function(object, i){ return(
+                        {countryYearResponse.ghg_emission_supply.map(function(object, i){ return(
                             <tr className='details-row' key={i}>
                                 <td className='details-cell'><p>{object.FLOW} ({object.PRODUCT})</p></td>
                                 <td className='details-cell'>{object.VALUE}</td>

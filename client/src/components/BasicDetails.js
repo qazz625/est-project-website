@@ -19,7 +19,7 @@ import { Tooltip } from 'react-tooltip'
 
 const TARGET_URL_PREFIX = endpoint_base.ENDPOINT_BASE + "africaCountryGeoStats?country=";
 const DUMMY_TARGET = 'https://jsonplaceholder.typicode.com/todos/1';
-const USE_DUMMY_API = 1;
+const USE_DUMMY_API = 0;
 
 const BasicDetails = () => {
     const [selectedCountry, setSelectedCountry] = useState("");

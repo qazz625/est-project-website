@@ -11,7 +11,7 @@ import CanvasJSReact from '@canvasjs/react-charts';
 import predictDummyResponse from "../dummy_responses/predict.json"
 import newsDummyResponse from "../dummy_responses/news.json"
 
-import COUNTRIES from "../resources/countries.json"
+import COUNTRIES_PREDICT from "../resources/countries_predict.json"
 import YEARS_PREDICT from "../resources/years_predict.json"
 import endpoint_base from "../resources/endpoint_base.json"
 
@@ -28,10 +28,10 @@ import { Tooltip } from 'react-tooltip'
 var CanvasJS = CanvasJSReact.CanvasJS;
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
-const NEWS_ENDPOINT_PREFIX = endpoint_base.ENDPOINT_BASE + "africaCountryGeoStats?country=";
+const NEWS_ENDPOINT_PREFIX = endpoint_base.ENDPOINT_BASE + "africaCountryEnvironmentNews?country=";
 const SIMPLE_PREDICT_PREFIX = endpoint_base.ENDPOINT_BASE + "africaCountryCO2Prediction?country=";
 const ADVANCED_PREDICT_PREFIX = endpoint_base.ENDPOINT_BASE + "africaCountryAdvanceCO2Prediction?country=";
-const USE_DUMMY_API = 1;
+const USE_DUMMY_API = 0;
 const DUMMY_TARGET = 'https://jsonplaceholder.typicode.com/todos/1';
 
 const Predict = () => {
@@ -124,16 +124,18 @@ const Predict = () => {
         console.log(countryName);
         document.getElementById("country-dropdown").value = countryName;
 
+        var target_url;
         if(USE_DUMMY_API == 0){
-            var target_url1 = NEWS_ENDPOINT_PREFIX + countryName;
+            target_url = NEWS_ENDPOINT_PREFIX + countryName;
         }
         else{
-            var target_url1 = DUMMY_TARGET;
+            target_url = DUMMY_TARGET;
         }
         
-        fetch(target_url1)
+        fetch(target_url)
         .then(response => response.json())
         .then((json) => {
+            console.log(json);
             if(USE_DUMMY_API == 0){
                 setNews(json.environmentNews);
             }
@@ -168,7 +170,7 @@ const Predict = () => {
                         <td className='select-cell'>
                             <select id="country-dropdown" className="dropdown" defaultValue="" onChange={(e) => selectCountry(e.target.value)}>
                                 <option value="" disabled>Select the country</option>
-                                {COUNTRIES.map(function(object, i){ return(<option value={object} key={i} > {object} </option>);})}
+                                {COUNTRIES_PREDICT.map(function(object, i){ return(<option value={object} key={i} > {object} </option>);})}
                             </select>
                         </td>
                     </tr>
@@ -250,7 +252,7 @@ const Predict = () => {
                     scale: 280
                 }}>
                 {
-                    COUNTRIES.length > 0
+                    COUNTRIES_PREDICT.length > 0
                     ?
                         <ZoomableGroup
                            zoom={position.zoom} 
@@ -283,17 +285,17 @@ const Predict = () => {
                                                 key={index}
                                                 geography={geo}
                                                 fill={(Object.keys(predictionValue).length != 0 && selected)?threat_color:"#d9dbde"}
-                                                style={{hover: {
-                                                    fill: "#FF6F61",
-                                                    stroke: "#9E1030",
-                                                    strokeWidth: 0.75,
-                                                    outline: "none",
-                                                    transition: "all 250ms"
-                                                        }}}
-                                                data-tooltip-id="my-tooltip"
-                                                data-tooltip-content={geo.properties.name_long}
-                                                data-tooltip-place="top"
-                                                onClick={() => selectCountry(geo.properties.name_long)}
+                                                // style={{hover: {
+                                                //     fill: "#FF6F61",
+                                                //     stroke: "#9E1030",
+                                                //     strokeWidth: 0.75,
+                                                //     outline: "none",
+                                                //     transition: "all 250ms"
+                                                //         }}}
+                                                // data-tooltip-id="my-tooltip"
+                                                // data-tooltip-content={geo.properties.name_long}
+                                                // data-tooltip-place="top"
+                                                // onClick={() => selectCountry(geo.properties.name_long)}
                                             />
                                         )
                                     })
@@ -343,7 +345,7 @@ const Predict = () => {
         </div>
 
 
-        <Tooltip id="my-tooltip" />
+        {/* <Tooltip id="my-tooltip" /> */}
         </div>
     );
 }
