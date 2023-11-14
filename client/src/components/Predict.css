@@ -1,3 +1,29 @@
+.error-message{
+    color: rgb(225, 130, 5);
+    margin-top: 20px;
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+.check-box{
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.num-input{
+    width: 150px;
+}
+
+.predict-button{
+    height:40px;
+    width:200px;
+    text-align: center;
+    border-radius: 5px;
+    border-style: solid;
+    margin-top: 20px;
+}
+
 .news-tile{
     height: 50px;
     width: 50px;

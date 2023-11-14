@@ -13,6 +13,7 @@ import countryYearDummyResponse from "../dummy_responses/country_year_ghg.json"
 
 import COUNTRIES from "../resources/countries.json"
 import YEARS from "../resources/years.json"
+import endpoint_base from "../resources/endpoint_base.json"
 
 
 import geoUrl from "./map.json"
@@ -27,8 +28,8 @@ import { Tooltip } from 'react-tooltip'
 var CanvasJS = CanvasJSReact.CanvasJS;
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
-const TARGET_URL1_PREFIX = "http://192.168.97.116:9823/africaCountryAllYearGHGStat?country="
-const TARGET_URL2_PREFIX = "http://192.168.97.116:9823/africaCountryEnergyStats?country="
+const TARGET_URL1_PREFIX = endpoint_base.ENDPOINT_BASE + "africaCountryAllYearGHGStat?country="
+const TARGET_URL2_PREFIX = endpoint_base.ENDPOINT_BASE + "africaCountryEnergyStats?country="
 const DUMMY_TARGET = 'https://jsonplaceholder.typicode.com/todos/1';
 const USE_DUMMY_API = 1;
 

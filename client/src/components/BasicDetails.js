@@ -10,13 +10,14 @@ import 'bootstrap/dist/css/bootstrap.css'
 import dummyResponse from "../dummy_responses/basic_details.json"
 
 import COUNTRIES from "../resources/countries.json"
+import endpoint_base from "../resources/endpoint_base.json"
 import geoUrl from "./map.json"
 
 import NavBar from "./NavBar"
 
 import { Tooltip } from 'react-tooltip'
 
-const TARGET_URL_PREFIX = "http://192.168.97.116:9823/africaCountryGeoStats?country=";
+const TARGET_URL_PREFIX = endpoint_base.ENDPOINT_BASE + "africaCountryGeoStats?country=";
 const DUMMY_TARGET = 'https://jsonplaceholder.typicode.com/todos/1';
 const USE_DUMMY_API = 1;
 

@@ -12,7 +12,8 @@ import newsDummyResponse from "../dummy_responses/news.json"
 import countryYearDummyResponse from "../dummy_responses/country_year_ghg.json"
 
 import COUNTRIES from "../resources/countries.json"
-import YEARS from "../resources/years.json"
+import YEARS_PREDICT from "../resources/years_predict.json"
+import endpoint_base from "../resources/endpoint_base.json"
 
 
 import geoUrl from "./map.json"
@@ -27,7 +28,9 @@ import { Tooltip } from 'react-tooltip'
 var CanvasJS = CanvasJSReact.CanvasJS;
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
-const NEWS_ENDPOINT_PREFIX = "http://192.168.97.116:9823/africaCountryGeoStats?country=";
+const NEWS_ENDPOINT_PREFIX = endpoint_base.ENDPOINT_BASE + "africaCountryGeoStats?country=";
+const SIMPLE_PREDICT_PREFIX = endpoint_base.ENDPOINT_BASE + "africaCountryCO2Prediction?country=";
+const ADVANCED_PREDICT_PREFIX = endpoint_base.ENDPOINT_BASE + "africaCountryAdvanceCO2Prediction?country=";
 const USE_DUMMY_API = 1;
 const DUMMY_TARGET = 'https://jsonplaceholder.typicode.com/todos/1';
 
@@ -36,35 +39,95 @@ const Predict = () => {
     const [selectedYear, setSelectedYear] = useState("");
     const [news, setNews] = useState([]);
     const [position, setPosition] = useState({center:[20, 0], zoom:1})
+    const [advanced, setAdvanced] = useState(false);
+    const [biowaste, setBiowaste] = useState(-1);
+    const [coal, setCoal] = useState(-1);
+    const [oil, setOil] = useState(-1);
+    const [naturalGas, setNaturalGas] = useState(-1);
+    const [errorMessage, setErrorMessage] = useState('');
 
 
+    function predict(){
+        if(selectedCountry == "" || selectedYear == ""){
+            setErrorMessage("Please select the country and the year");
+            return;
+        }
+
+        if(!advanced){
+            setErrorMessage('');
+
+            var target_url;
+            if(USE_DUMMY_API == 0){
+                target_url = SIMPLE_PREDICT_PREFIX + selectedCountry + '&year=' + selectedYear;
+            }
+            else{
+                target_url = DUMMY_TARGET;
+            }
+    
+            fetch(target_url)
+            .then(response => response.json())
+            .then((json) => {
+                if(USE_DUMMY_API == 0){
+                    
+                }
+                else{
+                    
+                }
+            })
+        }
+
+        else{
+            if(biowaste < 0 || coal < 0 || oil < 0 || naturalGas < 0){
+                setErrorMessage("Please enter proper values for all the fields");
+                return;
+            }
+            if(biowaste == '' || coal == '' || oil == '' || naturalGas == ''){
+                setErrorMessage("Please enter proper values for all the fields");
+                return;
+            }
+
+            setErrorMessage('');
+
+            console.log(biowaste);
+            console.log(coal);
+            console.log(oil);
+            console.log(naturalGas);
+
+            var target_url;
+            if(USE_DUMMY_API == 0){
+                target_url = ADVANCED_PREDICT_PREFIX + selectedCountry + '&year=' + selectedYear + '&biofuel=' + biowaste + '&coal_peat=' + coal + '&oil=' + oil + '&natural_gas=' + naturalGas;
+            }
+            else{
+                target_url = DUMMY_TARGET;
+            }
+
+            console.log(target_url);
+    
+            fetch(target_url)
+            .then(response => response.json())
+            .then((json) => {
+                if(USE_DUMMY_API == 0){
+                    
+                }
+                else{
+                    
+                }
+            })
+        }        
+    }
    
     function selectCountry(countryName){
         setSelectedCountry(countryName);
         console.log(countryName);
         document.getElementById("country-dropdown").value = countryName;
-        if(countryName == ""){
-            return;
-        }
-
 
         if(USE_DUMMY_API == 0){
             var target_url1 = NEWS_ENDPOINT_PREFIX + countryName;
-            var target_url2 = '';
         }
         else{
             var target_url1 = DUMMY_TARGET;
-            var target_url2 = DUMMY_TARGET;
         }
         
-
-        // var target_url1 = "http://10.1.37.102:9823/africaCountryAllYearGHGStat?country=" + countryName;
-        // var target_url2 = "http://10.1.37.102:9823/africaCountryEnergyStats?country=" + countryName + "&" + "year=" + selectedYear;
-
-        // var target_url1 = "http://192.168.97.116:9823/africaCountryAllYearGHGStat?country=" + countryName;
-        // var target_url2 = "http://192.168.97.116:9823/africaCountryEnergyStats?country=" + countryName + "&" + "year=" + selectedYear;
-
-
         fetch(target_url1)
         .then(response => response.json())
         .then((json) => {
@@ -76,52 +139,8 @@ const Predict = () => {
             }
         })
 
-        console.log("GG");
         console.log(news);
-    
-        if(selectedYear != ""){
-            // fetch(target_url2)
-            // .then(response => response.json())
-            // .then((json) => {
-                
-            // })
-        }
-        
-        
     }
-
-
-    function selectYear(e){
-        setSelectedYear(e.target.value);
-        if(selectedCountry == "" || e.target.value == ""){
-            return;
-        }
-
-
-        var target_url1 = 'https://jsonplaceholder.typicode.com/todos/1';
-        var target_url2 = 'https://jsonplaceholder.typicode.com/todos/1';
-
-        // var target_url1 = "http://10.1.37.102:9823/africaCountryEnergyStats?country=" + selectedCountry + "&" + "year=" + e.target.value;
-        // var target_url2 = "http://10.1.37.102:9823/africaCountryAllYearGHGStat?country=" + selectedCountry;
-
-        // var target_url1 = "http://192.168.97.116:9823/africaCountryEnergyStats?country=" + selectedCountry + "&" + "year=" + e.target.value;
-        // var target_url2 = "http://192.168.97.116:9823/africaCountryAllYearGHGStat?country=" + selectedCountry;
-
-        fetch(target_url1)
-            .then(response => response.json())
-            .then((json) => {
-
-            })
-
-        // if(Object.keys(lineChartOptions).length === 0){
-        //     fetch(target_url2)
-        //     .then(response => response.json())
-        //     .then((json) => {
-
-        //     })
-        // }
-    }
-
     
     return(
         <div className="rootdiv">
@@ -149,20 +168,62 @@ const Predict = () => {
                             Year:
                         </td>
                         <td className='select-cell'>
-                            <select className="dropdown" defaultValue="" onChange={(e) => selectYear(e)}>
+                            <select className="dropdown" defaultValue="" onChange={(e) => setSelectedYear(e.target.value)}>
                                 <option value="" disabled>Select the year</option>
-                                {YEARS.map(function(object, i){ return(<option value={object} key={i}> {object} </option>);})}
+                                {YEARS_PREDICT.map(function(object, i){ return(<option value={object} key={i}> {object} </option>);})}
                             </select>
                         </td>
 
                     </tr>
-
-
-
                 </table>
 
+                    <input className='check-box' type="checkbox" id="advanced" name="advanced" onChange={(e) => {setAdvanced(e.target.checked);}}/>
+                    <label for="vehicle1"> Advanced </label><br/>
                 
+                { advanced &&
+                    <table>
+                        <tr>
+                            <td className='select-cell'>
+                                Energy by Biofuels and Waste (tCO2/TJ):
+                            </td>
+                            <td className='select-cell'>
+                                <input className='num-input' type="number" min={0} onChange={(e) => setBiowaste(e.target.value)}/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className='select-cell'>
+                                Energy by Coal, Peat and Oil Shale (tCO2/TJ):
+                            </td>
+                            <td className='select-cell'>
+                                <input className='num-input' type="number" min={0} onChange={(e) => setCoal(e.target.value)}/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className='select-cell'>
+                                Energy by Oil (tCO2/TJ):
+                            </td>
+                            <td className='select-cell'>
+                                <input className='num-input' type="number" min={0} onChange={(e) => setOil(e.target.value)}/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className='select-cell'>
+                                Energy by Natural Gas (tCO2/TJ):
+                            </td>
+                            <td className='select-cell'>
+                                <input className='num-input' type="number" min={0} onChange={(e) => setNaturalGas(e.target.value)}/>
+                            </td>
+                        </tr>
+                    </table>
+                }
+                
+                {<button className='predict-button' type="button" onClick={() => {predict();}}> Predict </button>}
+                {errorMessage != '' &&
+                    <div className='error-message'> {errorMessage} </div>
+                }
             </div>
+
+            
 
             <div className='col mapdiv'>
             <ComposableMap
