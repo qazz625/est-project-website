@@ -12,7 +12,7 @@ import re
 load_dotenv()  # take environment variables from .env.
 
 file_path = "countryStat.json"
-threshold_seconds = 3600  # 1 hour threshold
+threshold_seconds = 720000
 
 country_mapping = {
     "Algeria": "ag",
