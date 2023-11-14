@@ -8,8 +8,8 @@ import { scaleLinear } from "d3-scale"
 import 'bootstrap/dist/css/bootstrap.css'
 import CanvasJSReact from '@canvasjs/react-charts';
 
+import predictDummyResponse from "../dummy_responses/predict.json"
 import newsDummyResponse from "../dummy_responses/news.json"
-import countryYearDummyResponse from "../dummy_responses/country_year_ghg.json"
 
 import COUNTRIES from "../resources/countries.json"
 import YEARS_PREDICT from "../resources/years_predict.json"
@@ -45,9 +45,11 @@ const Predict = () => {
     const [oil, setOil] = useState(-1);
     const [naturalGas, setNaturalGas] = useState(-1);
     const [errorMessage, setErrorMessage] = useState('');
+    const [predictionValue, setPredictionValue] = useState({});
 
 
     function predict(){
+        setPredictionValue({});
         if(selectedCountry == "" || selectedYear == ""){
             setErrorMessage("Please select the country and the year");
             return;
@@ -68,10 +70,10 @@ const Predict = () => {
             .then(response => response.json())
             .then((json) => {
                 if(USE_DUMMY_API == 0){
-                    
+                    setPredictionValue(json);
                 }
                 else{
-                    
+                    setPredictionValue(predictDummyResponse);
                 }
             })
         }
@@ -107,16 +109,17 @@ const Predict = () => {
             .then(response => response.json())
             .then((json) => {
                 if(USE_DUMMY_API == 0){
-                    
+                    setPredictionValue(json);
                 }
                 else{
-                    
+                    setPredictionValue(predictDummyResponse);
                 }
             })
         }        
     }
    
     function selectCountry(countryName){
+        setPredictionValue({});
         setSelectedCountry(countryName);
         console.log(countryName);
         document.getElementById("country-dropdown").value = countryName;
@@ -217,10 +220,15 @@ const Predict = () => {
                     </table>
                 }
                 
-                {<button className='predict-button' type="button" onClick={() => {predict();}}> Predict </button>}
-                {errorMessage != '' &&
-                    <div className='error-message'> {errorMessage} </div>
+                <button className='predict-button' type="button" onClick={() => {predict();}}> Predict </button>
+
+                {errorMessage != '' && <div className='error-message'> {errorMessage} </div> }
+                {Object.keys(predictionValue).length != 0 &&
+                    <div className='prediction-result'>
+                        Predicted CO2 emission for {selectedCountry} in {selectedYear} = {predictionValue.totalCO2Emission} {predictionValue.unit} ({predictionValue.threat_level} threat)
+                    </div>
                 }
+
             </div>
 
             
@@ -249,11 +257,24 @@ const Predict = () => {
                                 {({geographies}) =>
                                     geographies.map((geo, index) => {
                                         const selected = geo.properties.name_long === selectedCountry
+                                        var threat_color = "#d9dbde";
+                                        if(Object.keys(predictionValue).length != 0){
+                                            if(predictionValue.threat_level == 'low'){
+                                                threat_color = "#ffcccc"
+                                            }
+                                            if(predictionValue.threat_level == 'moderate'){
+                                                threat_color = "#ff8080"
+                                            }
+                                            if(predictionValue.threat_level == 'high'){
+                                                threat_color = "#ff0000"
+                                            }
+                                        }
+                                       
                                         return(
                                             <Geography 
                                                 key={index}
                                                 geography={geo}
-                                                fill={"#d9dbde"}
+                                                fill={(Object.keys(predictionValue).length != 0 && selected)?threat_color:"#d9dbde"}
                                                 style={{hover: {
                                                     fill: "#FF6F61",
                                                     stroke: "#9E1030",
