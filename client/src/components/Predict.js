@@ -31,7 +31,7 @@ var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 const NEWS_ENDPOINT_PREFIX = endpoint_base.ENDPOINT_BASE + "africaCountryEnvironmentNews?country=";
 const SIMPLE_PREDICT_PREFIX = endpoint_base.ENDPOINT_BASE + "africaCountryCO2Prediction?country=";
 const ADVANCED_PREDICT_PREFIX = endpoint_base.ENDPOINT_BASE + "africaCountryAdvanceCO2Prediction?country=";
-const USE_DUMMY_API = 0;
+const USE_DUMMY_API = 1;
 const DUMMY_TARGET = 'https://jsonplaceholder.typicode.com/todos/1';
 
 const Predict = () => {
@@ -325,7 +325,7 @@ const Predict = () => {
                             <div>
                                 <div className='news-article'>
                                     <div className='news-title'>
-                                        <a href={object.link}>{object.title}</a>
+                                        <a className="news-link" href={object.link}>{object.title}</a>
                                     </div>
                                     <div className='news-desc'>
                                         {object.description}
