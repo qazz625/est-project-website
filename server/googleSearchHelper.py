@@ -3,7 +3,7 @@ from serpapi import GoogleSearch
 params = {
     "engine": "google",
     "q": "Algeria: Environment Issues",
-    "api_key": "4d47a3b0384d54ff78cac9b93a1dc71ac8a696c73c708a9892f8fbff53cc6148"
+    "api_key": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 }
 
 
